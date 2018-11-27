@@ -4,6 +4,7 @@
 from bottle import default_app, get, run
 from beaker.middleware import SessionMiddleware
 
+
 # 设置session参数
 session_opts = {
     'session.type': 'file',
