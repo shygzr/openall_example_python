@@ -15,9 +15,9 @@ session_opts = {
 
 @get('/')
 def callback():
-    return '济南大学智慧校园开放平台_python应用_bottle框架'
+    return '济南大学智慧校园开放平台-----python应用Demo-----bottle框架'
 
 # 函数主入口
 if __name__ == '__main__':
     app_argv = SessionMiddleware(default_app(), session_opts)
-    run(app=app_argv, host='0.0.0.0', port=9090, debug=True, reloader=True)
+    run(app=app_argv, host='0.0.0.0', port=8082, debug=True, reloader=True)
