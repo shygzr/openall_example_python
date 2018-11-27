@@ -20,4 +20,4 @@ def callback():
 # 函数主入口
 if __name__ == '__main__':
     app_argv = SessionMiddleware(default_app(), session_opts)
-    run(app=app_argv, host='0.0.0.0', port=8082, debug=True, reloader=True)
+    run(app=app_argv, host='0.0.0.0', port=8080, debug=True, reloader=True)
